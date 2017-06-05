@@ -1,6 +1,6 @@
 # AtsuKan
 made @ spajam2017
-
+![](docs/img/icon.png)
 ![](docs/img/logo.png)
 
 (c) 2017 Team 5 quadrillion All rights reserved.
