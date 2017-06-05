@@ -1,3 +1,3 @@
-Atumori linguist-language=C#
-Droid linguist-language=C#
-iOS linguist-language=C#
+Atumori/* linguist-language=csharp
+Droid/* linguist-language=csharp
+iOS/* linguist-language=csharp
