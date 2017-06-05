@@ -3,7 +3,7 @@ made @ spajam2017
 
 ![](docs/img/logo.png)
 
-(c) 2017 SQuadrillion All rights reserved.
+(c) 2017 Team 5 quadrillion All rights reserved.
 
 ## ScreenShots
 
