@@ -5,6 +5,8 @@ made @ spajam2017
 
 ![](docs/img/logo.png)
 
+designed by ryo.
+
 (c) 2017 Team 5 quadrillion All rights reserved.
 
 ## ScreenShots
