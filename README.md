@@ -1,6 +1,8 @@
 # AtsuKan
 made @ spajam2017
-![](docs/img/icon.png)
+
+<img src="docs/img/icon.png" width="30%">
+
 ![](docs/img/logo.png)
 
 (c) 2017 Team 5 quadrillion All rights reserved.
@@ -8,6 +10,6 @@ made @ spajam2017
 ## ScreenShots
 
 <div class="clearfix" style="float:left">
-<img src="docs/img/screenshot1.png" width="200">
-<img src="docs/img/screenshot2.png" width="200">
+<img src="docs/img/screenshot1.png" width="20%">
+<img src="docs/img/screenshot2.png" width="20%">
 </div>
