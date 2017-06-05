@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/Koutaro/Projects/hotcoolbtn/Atumori/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/partial-info.plist</string>
+		</array>
+	</dict>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][29x29][][][3x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Koutaro/Projects/hotcoolbtn/Atumori/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "ico-st3x.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][40x40][][][2x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Koutaro/Projects/hotcoolbtn/Atumori/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "ico-sp2x.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][60x60][][][3x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Koutaro/Projects/hotcoolbtn/Atumori/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "ico-7ic3x.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][29x29][][][1x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Koutaro/Projects/hotcoolbtn/Atumori/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "ico-st.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][57x57][][][2x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Koutaro/Projects/hotcoolbtn/Atumori/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "icon@2x.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][29x29][][][2x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Koutaro/Projects/hotcoolbtn/Atumori/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "ico-st2x.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][57x57][][][1x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Koutaro/Projects/hotcoolbtn/Atumori/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "icon.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][60x60][][][2x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Koutaro/Projects/hotcoolbtn/Atumori/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "ico-7ic2x.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][iphone][40x40][][][3x]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/Koutaro/Projects/hotcoolbtn/Atumori/iOS/obj/iPhone/Debug/device-builds/iphone7.2-10.2.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "ico-sp3x.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>

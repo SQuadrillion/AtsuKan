@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:Atumori" x:Class="Atumori.AtumoriPage">
+<ContentPage.Padding>
+    <OnPlatform x:TypeArguments="Thickness"
+                iOS="0, 20, 0, 0"
+                Android="0, 0, 0, 0"
+                WinPhone="0, 0, 0, 0" />
+</ContentPage.Padding>
+
+<Grid>
+    <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Source="{local:ImageResource Atumori.Images.bashowaku.png}"></Image>
+    <Label  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  
+            VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+            FontSize="36"
+        Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="2" x:Name = "placeName" Text="None"/>
+    <Image Grid.Row="1" Grid.Column="0" Source="{local:ImageResource Atumori.Images.atsu.png}" x:Name="imageAtsu"  >
+        <Image.GestureRecognizers>
+            <TapGestureRecognizer Tapped="OnImageClickedAsync"/>
+        </Image.GestureRecognizers>
+    </Image>
+    <Image Grid.Row="1" Grid.Column="1" Source="{local:ImageResource Atumori.Images.samu.png}" x:Name="imageSamu" >
+        <Image.GestureRecognizers>
+            <TapGestureRecognizer Tapped="OnImageClickedAsync"/>
+        </Image.GestureRecognizers>
+    </Image>
+    <Image Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Source="{local:ImageResource Atumori.Images.QR.png}" x:Name="imageQr">
+        <Image.GestureRecognizers>
+            <TapGestureRecognizer Tapped="ScanButtonClickedAsync"/>
+        </Image.GestureRecognizers>
+    </Image>     
+    <Image Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Source="{local:ImageResource Atumori.Images.kekka.png}" x:Name="imageKanri" >
+        <Image.GestureRecognizers>
+            <TapGestureRecognizer Tapped="OnImageClickedAsync"/>
+        </Image.GestureRecognizers>
+    </Image> 
+    <Image Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Source="{local:ImageResource Atumori.Images.credit.png}"/>
+</Grid>
+
+    
+
+</ContentPage>

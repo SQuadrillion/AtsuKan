@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Atumori.ResultPage"
+    xmlns:oxy="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms"
+    xmlns:local="clr-namespace:Atumori">
+
+    <Grid>
+            <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            
+            <Image Grid.Row="0" Source="{local:ImageResource Atumori.Images.genzai.png}" />
+            <Image Grid.Row="1" Source="{local:ImageResource Atumori.Images.gurahuwaku.png}"  />
+            <Image Grid.Row="2" Source="{local:ImageResource Atumori.Images.data.png}"  VerticalOptions="Fill">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnUpdateButtonClicked"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Grid.Row="3" Source="{local:ImageResource Atumori.Images.tohyo.png}">  
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnVoteButtonClickedAsync"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <oxy:PlotView  Grid.Row="1" x:Name="PlotView" 
+                HorizontalOptions="Center" VerticalOptions="Center"  WidthRequest="300" HeightRequest="350"/>
+            <Image Grid.Row="4" Source="{local:ImageResource Atumori.Images.credit.png}" />
+    </Grid>
+
+    
+<!--    <StackLayout
+        Padding="20"
+        VerticalOptions="FillAndExpand"
+        HorizontalOptions="FillAndExpand">-->
+        <!--<oxy:PlotView Model="{Binding Model}" VerticalOptions="Center" HorizontalOptions="Center" />-->
+<!--        <oxy:PlotView  x:Name="PlotView" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+    </StackLayout>-->
+	<!--<ContentPage.Content>
+	</ContentPage.Content>-->
+</ContentPage>

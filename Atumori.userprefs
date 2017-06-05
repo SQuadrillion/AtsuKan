@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{A8C548C4-CFBF-49B9-8DA3-ECF67A7F1D73}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Atumori/View/ResultPage.xaml.cs">
+    <Files>
+      <File FileName="Atumori/View/AtumoriPage.xaml" Line="54" Column="1" />
+      <File FileName="Atumori/View/AtumoriPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Atumori/App.xaml" Line="7" Column="1" />
+      <File FileName="Atumori/App.xaml.cs" Line="11" Column="40" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="iOS/AppDelegate.cs" Line="8" Column="22" />
+      <File FileName="Atumori/Model/MyHttpTest.cs" Line="36" Column="41" />
+      <File FileName="Atumori/View/ResultPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Atumori.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.55AF7049-965F-4AB1-A1B6-D9BDEB1510B9" />
+  <MultiItemStartupConfigurations />
+</Properties>
