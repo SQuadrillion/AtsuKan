@@ -15,3 +15,7 @@ designed by ryo.
 <img src="docs/img/screenshot1.png" width="20%">
 <img src="docs/img/screenshot2.png" width="20%">
 </div>
+
+## Slides
+
+https://speakerdeck.com/squadrillion/atuxkan-at-spajam2017-dong-jing-byu-xuan
